@@ -4,11 +4,12 @@ namespace L01_2020AU601.Models
     public class pedidos
     {
         [Key]
-        public int id { set; get; }
-        public string pedidold { set; get; }
-        public decimal motoristald { set; get; }
-        public string platold { set; get; }
-        public decimal cantidad { set; get; }
+       
+        public int pedidoId { set; get; }
+        public int motoristaId { set; get; }
+        public int clienteId { set; get; }
+        public int platoId { set; get; }
+        public int cantidad { set; get; }
         public decimal precio { set; get; }
     }
 }
